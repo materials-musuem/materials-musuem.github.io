@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Feedback</title>
+<script type="text/javascript">
+  function check()
+    { var a=document.getElementById('museum-yes').checked;
+      var b=document.getElementById('material-yes').checked;
+      var c=document.getElementById('museum-no').checked;
+      var d=document.getElementById('material-no').checked;
+      
+      if((a==false&& c==false)||( b==false && d==false))
+        { alert('Please fill form completely!!!');
+          return false;
+        }
+
+      else{ return true;}
+    }
+</script>
+
+
+</head>
+
+<body>
+<!--<form action="feedbacksubmission.html" method="post" onsubmit="return check()">
+Do u like Museum? </br>
+  Yes<input type="radio" name="museum" id="museum-yes"/>
+  No<input type="radio" name="museum" id="museum-no">  </br></br>
+
+Do u like Theme 'Material'? </br>
+  Yes<input type="radio" name="material" id="material-yes"/>
+  No<input type="radio" name="material" id="material-no"> </br> </br>
+
+Any Suggestions? </br>
+ <textarea type="text" name="suggestion" rows="5" id="suggestion"/></textarea> </br> </br>
+
+<input type="submit" name="submit" id="submit" value="submit"> 
+
+
+</form>-->
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd3WANJnehKKRsKBUmsWYMGPTY-3oEFoMFIfM6RUspS2VjQ1g/viewform?embedded=true" width="1820" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+</body>
+</html>
